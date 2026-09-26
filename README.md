@@ -46,6 +46,4 @@ Requires `minSdk 26`, `targetSdk 34`.
 
 Personal/research project, not a certified security product, not independently audited. Do not rely on it as your sole defense against malware.
 
-## License
 
-*(Add your chosen license here.)*
