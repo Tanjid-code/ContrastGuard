@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_shield" />
+
+    <TextView
+        android:id="@+id/tvScanStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Analyzing App..."
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/tvScanDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Starting..."
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"
+        android:gravity="center" />
+
+    <!-- App Name Display -->
+    <TextView
+        android:id="@+id/tvAppNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="APP BEING SCANNED"
+        android:textColor="@color/text_hint"
+        android:textSize="10sp"
+        android:letterSpacing="0.15" />
+
+    <TextView
+        android:id="@+id/tvFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_card_dark"
+        android:padding="14dp"
+        android:text="App name"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:maxLines="3"
+        android:ellipsize="middle" />
+
+    <!-- Progress percentage -->
+    <TextView
+        android:id="@+id/tvProgressPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="0%"
+        android:textColor="@color/primary_light"
+        android:textSize="32sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <ProgressBar
+        android:id="@+id/progressScan"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/primary_light"
+        android:progressBackgroundTint="@color/bg_card_light" />
+
+    <!-- Cancel Button (Fixed) -->
+    <TextView
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:minWidth="140dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bg_button_secondary"
+        android:gravity="center"
+        android:paddingStart="28dp"
+        android:paddingEnd="28dp"
+        android:text="Cancel"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:clickable="true"
+        android:focusable="true" />
+
+</LinearLayout>

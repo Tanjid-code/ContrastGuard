@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ContrastGuard</string>
+    <string name="tagline">AI-Powered Android Protection</string>
+    <string name="scan_apk">Scan APK File</string>
+    <string name="scan_installed">Scan Installed Apps</string>
+    <string name="scan_history">Scan History</string>
+    <string name="settings">Settings</string>
+    <string name="scanning">Analyzing APK</string>
+    <string name="no_history">No scan history yet</string>
+    <string name="confidence">Confidence</string>
+    <string name="risk_indicators">Risk Indicators</string>
+    <string name="scan_details">Scan Details</string>
+    <string name="benign_probability">Benign</string>
+    <string name="malware_probability">Malware</string>
+    <string name="powered_by">Powered by ContrastGuard Neural Network</string>
+    <string name="real_time_protection">Real-Time Protection</string>
+    <string name="protection_active">Protection Active</string>
+    <string name="protection_inactive">Protection Inactive</string>
+    <string name="enable_protection">Enable</string>
+    <string name="disable_protection">Disable</string>
+    <string name="guard_notification_title">ContrastGuard Active</string>
+    <string name="guard_notification_text">Monitoring for new app installations</string>
+    <string name="threat_detected_title">Threat Detected!</string>
+</resources>
